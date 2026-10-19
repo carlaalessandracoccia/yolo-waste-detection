@@ -58,4 +58,4 @@ If you use this code, please cite the paper; `CITATION.cff` holds the machine-re
 
 Copyright (c) 2026 Carla Coccia and Martina Jakob. Released under the GNU Affero General Public License v3.0; see `LICENSE`.
 
-AGPL-3.0 is required rather than chosen: these scripts build on [Ultralytics](https://github.com/ultralytics/ultralytics) YOLO, which is itself AGPL-3.0, and Ultralytics applies that licence to models trained with it as well as to the training code.
+The scripts depend on [Ultralytics](https://github.com/ultralytics/ultralytics) YOLO, which is licensed AGPL-3.0. Ultralytics extends that licence to code built on it and to models trained with it, so the same licence applies here.
