@@ -1,6 +1,8 @@
 # YOLO Waste Detection
 
-Code and experiment records for training a YOLO26 waste detector on MICOLI, TACO, extended TACO and Plastopol images. The main output is the trained `best.pt` model; predictions for the wider research project are handled separately.
+Code and experiment records for training a YOLO26 waste detector on MICOLI (*Mi Comunidad Limpia*, the authors' own field experiment in 120 rural communities in Morazan, El Salvador), TACO, extended TACO and Plastopol images, for the paper **"Top Down or Bottom Up? Evidence from a Field Experiment on Public Goods Provision"** by Carla Coccia and Martina Jakob. The model's trash count for each photograph is the paper's measure of street contamination. The main output is the trained `best.pt` model; predictions for the wider research project are handled separately.
+
+Analysis code and released data are in the paper's replication package.
 
 ## Setup
 
@@ -47,3 +49,13 @@ The selected model is **experiment 17: `finetune_splitov4_960`**, trained at ima
 ```
 
 Evaluation tables are in `02_results`. Individual training settings and metrics are stored with each run in `03_assets/03_saved_runs`.
+
+## Citation
+
+If you use this code, please cite the paper; `CITATION.cff` holds the machine-readable form.
+
+## Licence
+
+Copyright (c) 2026 Carla Coccia and Martina Jakob. Released under the GNU Affero General Public License v3.0; see `LICENSE`.
+
+AGPL-3.0 is required rather than chosen: these scripts build on [Ultralytics](https://github.com/ultralytics/ultralytics) YOLO, which is itself AGPL-3.0, and Ultralytics applies that licence to models trained with it as well as to the training code.

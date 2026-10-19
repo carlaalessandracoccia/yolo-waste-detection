@@ -1,0 +1,19 @@
+# Python dependencies for the scripts in 01_code.
+#
+# Ultralytics is pinned to the version recorded in the saved model runs
+# (03_assets/03_saved_runs). The remaining packages are listed without versions
+# because the training environment was not captured; a `pip freeze` from that
+# environment would make this exact.
+#
+# Install torch/torchvision for the CUDA version of the target machine; see
+# https://pytorch.org/get-started/locally/ for the matching index URL.
+
+ultralytics==8.4.116
+torch
+torchvision
+pandas
+numpy
+scikit-learn
+pillow
+pyyaml
+openpyxl

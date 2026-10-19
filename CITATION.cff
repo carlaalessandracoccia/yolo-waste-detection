@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+title: >-
+  Code for the object-detection model in "Top Down or Bottom Up? Evidence
+  from a Field Experiment on Public Goods Provision"
+message: If you use this code, please cite the paper.
+type: software
+
+authors:
+  - family-names: Coccia
+    given-names: Carla
+    affiliation: University of Bern
+    email: carla.coccia@unibe.ch
+  - family-names: Jakob
+    given-names: Martina
+    affiliation: University of Zurich
+    email: martina.jakob@econ.uzh.ch
+
+abstract: >-
+  Training and evaluation code for the YOLO26 object-detection model that
+  measures street contamination in "Top Down or Bottom Up? Evidence from a Field
+  Experiment on Public Goods Provision". The model is fine-tuned on geotagged
+  street photographs from the MICOLI field experiment in 120 rural communities in
+  Morazan, El Salvador, together with the public TACO, extended TACO and
+  Plastopol trash datasets. Its per-photograph trash counts are the paper's
+  measure of street contamination.
+
+keywords:
+  - object detection
+  - YOLO
+  - deep learning
+  - solid waste management
+  - randomized controlled trial
+  - El Salvador
+
+license: AGPL-3.0
+repository-code: https://github.com/carlaalessandracoccia/yolo-waste-detection
